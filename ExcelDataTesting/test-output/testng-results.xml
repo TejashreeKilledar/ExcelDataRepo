@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-14T12:31:07 IST" name="Default suite" finished-at="2023-02-14T12:31:26 IST" duration-ms="19134">
+    <groups>
+    </groups>
+    <test started-at="2023-02-14T12:31:07 IST" name="Default test" finished-at="2023-02-14T12:31:26 IST" duration-ms="19134">
+      <class name="testngPkg.ReadDataFromExcel">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testngPkg.ReadDataFromExcel@44ebcd03]" started-at="2023-02-14T12:31:07 IST" name="openBrowser" finished-at="2023-02-14T12:31:14 IST" duration-ms="6466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="beforeMethd()[pri:0, instance:testngPkg.ReadDataFromExcel@44ebcd03]" started-at="2023-02-14T12:31:14 IST" name="beforeMethd" finished-at="2023-02-14T12:31:17 IST" duration-ms="3440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethd -->
+        <test-method signature="testMethod()[pri:0, instance:testngPkg.ReadDataFromExcel@44ebcd03]" started-at="2023-02-14T12:31:17 IST" name="testMethod" finished-at="2023-02-14T12:31:26 IST" duration-ms="8188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testngPkg.ReadDataFromExcel@44ebcd03]" started-at="2023-02-14T12:31:26 IST" name="afterMethod" finished-at="2023-02-14T12:31:26 IST" duration-ms="772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=ReadDataFromExcel.testMethod()[pri:0, instance:testngPkg.ReadDataFromExcel@44ebcd03] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testngPkg.ReadDataFromExcel@44ebcd03]" started-at="2023-02-14T12:31:26 IST" name="afterClass" finished-at="2023-02-14T12:31:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testngPkg.ReadDataFromExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
